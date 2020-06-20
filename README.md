@@ -49,8 +49,8 @@ set <variable name | variable value>
 del <variable name>
 touch <file name>
 <help> <no args or help <command> for certain command help>
-
 ```
+
 <br>
 <br>
 <h2> Images </h2>
