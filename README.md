@@ -57,6 +57,8 @@ touch <file name>
 <br>
 An example of `led-toggle all`: <br>
 
-<img src="http://polarzdev.xyz/pyboard.microcontrollers.github/led-all-ss.png">
-
-
+<img src="https://github.com/Polarzz/pybcli/blob/master/img/led-all-ss.png">
+<img src="https://github.com/Polarzz/pybcli/blob/master/img/led-all-img.JPG">
+<br>
+<br>
+<img src="https://github.com/Polarzz/pybcli/blob/master/img/examples.png">
