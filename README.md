@@ -63,3 +63,5 @@ touch <file name>
 <br>
 <br>
 <img src="https://github.com/Polarzz/pybcli/blob/master/img/examples.png">
+<img src="https://github.com/Polarzz/pybcli/blob/master/img/Screenshot%20from%202020-06-20%2013-08-22.png">
+<img src="https://github.com/Polarzz/pybcli/blob/master/img/Screenshot%20from%202020-06-20%2013-08-07.png">
