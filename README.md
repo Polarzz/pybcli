@@ -56,7 +56,7 @@ touch <file name>
 <h2> Images </h2>
 <br>
 An example of `led-toggle all`
-![led-toggle-all](http://polarzdev.xyz/pyboard.microcontrollers.github/led-all-ss.png)
+![alt text](http://polarzdev.xyz/pyboard.microcontrollers.github/led-all-ss.png)
 
 
 
