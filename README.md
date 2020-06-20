@@ -27,7 +27,7 @@ help
 <br>
 <br>
 In make 2 (mk2) there is alot more operating system like functionality such as users and global variables. <br>
-In make 2 there are 2 main files. `fs-main.py` is to be ran on flash storage while as `sd-main.py` is to be ran on an sd card on the pyboard / microcontroller. This is as of errors that occur due to directory structure.
+In make 2 there are 2 main files. **fs-main.py** is to be ran on flash storage while as **sd-main.py** is to be ran on an sd card on the pyboard / microcontroller. This is as of errors that occur due to directory structure.
 <br>
 
 ```bash
