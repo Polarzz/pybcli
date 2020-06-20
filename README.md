@@ -55,7 +55,7 @@ touch <file name>
 <br>
 <h2> Images </h2>
 <br>
-An example of `led-toggle all`: <br>
+<br>
 
 <img src="https://github.com/Polarzz/pybcli/blob/master/img/led-all-ss.png">
 <img src="https://github.com/Polarzz/pybcli/blob/master/img/led-all-img.JPG">
