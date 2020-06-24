@@ -3,7 +3,13 @@
 Take control of your pyboard / microcontroller. <br>
 <br>
 All makes are tested on both a standard pyboard and pyboard lite and soon to be ESP32 once it arrives. <br>
+<h2> LATEST </h2>
+In make 3 (mk3) alot has been added. <br>
+Added "programs" and "shell scripts". <br>
+"Programs" allow you to create a somewhat of an app for the pyboard, quick and easily.
+Make 3 introduces support for other micropython boards, and has been tested on an ESP32. The file to be used for other boards is `other-main.py`.
 
+<h2> OLD </h2>
 In make 1 (mk1) there is basic functionality. <br>
 Commands include: <br>
 
