@@ -28,3 +28,27 @@ del NEW_DIR
 # this is a comment
 ~ this is a comment
 ```
+<br>
+If you want to do more than one thing in an if statement create a different file make the if statement execute that file. This is sort of like including / importing a file.
+<br>
+Examples:
+
+```bash
+// this program switches users
+// switch-user.prgm
+ask Which user would you like to switch to: -> NEW_USER
+if $NEW_USER == $USER -> pass else su $NEW_USER
+del NEW_USER
+```
+
+```bash
+// example of shell if statement
+ask What is you're name -> NAME
+if $NAME == $USER -> shell USER_IS_NAME.prgm else mkuser $NAME
+```
+
+```bash
+// USER_IS_NAME.prgm
+echo You are currently logged in.
+del NAME
+```
