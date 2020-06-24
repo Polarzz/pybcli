@@ -1,0 +1,3 @@
+// remove-directory.prgm
+ask Name of directory to remove -> NEW_DIR
+rmdir $NEW_DIR
