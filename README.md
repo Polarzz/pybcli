@@ -23,7 +23,7 @@ su $USERNAME
 <br>
 This program will ask for input, the users name, then if they are logged in as that user will tell them that they are logged in. If they are not logged in it will create an account under the name they entered and switch to that user.
 <br>
-Full documentation on programs in <strong>Programs.README</strong>.
+Full documentation on programs in <strong>Programs.md</strong>.
 Example programs can be found under <strong>os/exmpl-prgms</strong>
 
 <h2> OLD </h2>
