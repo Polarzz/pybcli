@@ -4,6 +4,19 @@ Take control of your pyboard / microcontroller. <br>
 <br>
 All makes are tested on both a standard pyboard and pyboard lite and soon to be ESP32 once it arrives. <br>
 <h2> LATEST </h2>
+Make 4 introduces command looping in programs, waiting in programs, and loops with delays in programs. It also includes user creatable commands. <br>
+To loop a command use the <strong>loop <times> <command> </strong> command. To wait use </strong>wait <time as integer of float> </strong> and to loop with delay use <strong>loop-delay <times> <time as integer or float> <command></strong>. <br>
+ 
+<br>
+Added <strong>cat</strong> and <strong>dump</strong>. <br>
+To create you're own commands place a file in <strong>os/cmds</strong> called <strong><your command name>.command</strong>. Commands are essentially programs but you can use <strong>%arg</strong> to get the arguments. <br>
+
+```bash
+// say.command
+echo %arg
+```
+
+This will mimic the echo command by printing its arguments. It echos the arguements of <strong>say</strong>, like <strong>echo</strong> or <strong>print</strong>
 
 <h2> OLD </h2>
 In make 1 (mk1) there is basic functionality. <br>
