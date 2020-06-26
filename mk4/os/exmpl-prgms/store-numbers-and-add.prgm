@@ -1,0 +1,12 @@
+ask Number 1 -> NUM1
+ask Number 2 -> NUM2
+ask Add, divide, subtract or multiply -> TYPE
+math store add TEMPMATH $NUM1 $NUM2
+echo TEMPMATH
+del NUM1
+del NUM2
+del TEMPMATH
+// math store tells math to store the command output as a variable
+// TEMPMATH is the variable to store it to
+// add tells math to add
+// adds $NUM1 and $NUM2 which came from ask.
