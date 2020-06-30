@@ -546,7 +546,7 @@ def execute(command,args):
 	if command == "dump":
 		try:
 			with open(args.split[0],"w") as f:
-				f.write(listToStr(args.split([2:])).replace("\\n","\n"))
+				f.write(listToStr(args.split()[2:]).replace("\\n","\n"))
 				f.close()
 		except:
 			print("Failed")
