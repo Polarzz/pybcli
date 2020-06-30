@@ -1,4 +1,7 @@
-import pyb
+try:
+	import pyb
+except:
+	pass
 import time
 import uos
 import color
