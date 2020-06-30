@@ -16,10 +16,11 @@ Make 4.1 improves on make 4 by allowing an infinite amount of arguments in custo
 <br>
 Added <strong>cat</strong> and <strong>dump</strong>. <br>
 To create you're own commands place a file in <strong>os/cmds</strong> called <strong>[your command name].command</strong>. Commands are essentially programs but you can use <strong>%arg</strong> to get the arguments. <br>
+Arguments are a string called <strong>None</strong> if they are empty.
 
 ```bash
 // say.command
-print %arg[1] %arg[2] %arg[3] %arg[4] %arg[5] %arg[6]
+print %arg[all]
 ```
 
 This will mimic the echo command by printing its arguments. It echos the arguements of <strong>say</strong>, like <strong>echo</strong> or <strong>print</strong>
