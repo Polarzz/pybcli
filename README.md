@@ -1,7 +1,7 @@
 # pybcli
 > Pyboard Command Line Interface. <br>
 Take control of your pyboard / microcontroller. <br>
-> NOTE: PLEASE MAKE A FOLDER NAMED <strong>en/</strong> IN THE <strong>os</strong> FOLDER TO BE ABLE TO USE VARIABLES
+> NOTE: PLEASE MAKE A FOLDER NAMED <strong>env</strong> IN THE <strong>os</strong> FOLDER TO BE ABLE TO USE VARIABLES
 <br>
 All makes are tested on both a standard pyboard and pyboard lite and soon to be ESP32 once it arrives. <br>
 <h2> LATEST </h2>
