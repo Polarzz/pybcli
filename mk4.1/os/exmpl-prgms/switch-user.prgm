@@ -1,0 +1,4 @@
+// switch-user.prgm
+ask Which user would you like to switch to: -> NEW_USER
+if $NEW_USER == $USER -> pass else su $NEW_USER
+del NEW_USER

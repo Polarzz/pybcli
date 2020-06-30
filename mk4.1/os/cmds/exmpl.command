@@ -1,0 +1,1 @@
+if %arg[1] == None -> echo No arguments else echo Arguments

@@ -1,0 +1,7 @@
+ask Which LED would you like to toggle: -> LED_TO_TOGGLE
+if $LED_TO_TOGGLE == red -> led-toggle red
+if $LED_TO_TOGGLE == blue -> led-toggle blue
+if $LED_TO_TOGGLE == yellow -> led-toggle yellow
+if $LED_TO_TOGGLE == green -> led-toggle green
+if $LED_TO_TOGGLE == all -> led-toggle all
+del LED_TO_TOGGLE

@@ -1,0 +1,4 @@
+ask How many times should it loop: -> LOOPS
+ask Time delay between each loop: -> DELAY
+ask LED to loop, red, green, yellow, red, all: -> LED_LOOP
+loop-delay $LOOPS $DELAY led-toggle $LED_LOOP
