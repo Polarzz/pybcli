@@ -1,4 +1,8 @@
-import pyb
+try:
+	import pyb
+except:
+	pass
+
 import time
 import uos
 import color
@@ -542,8 +546,8 @@ def execute(command,args):
 
 	if command == "dump":
 		try:
-			with open(args.partition(" ->")[0],"w") as f:
-				f.write(args.partition("-> ")[2])
+			with open(args.split[0],"w") as f:
+				f.write(listToStr(args.split([2:])).replace("\\n","\n"))
 				f.close()
 		except:
 			print("Failed")
