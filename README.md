@@ -30,6 +30,7 @@ This will mimic the echo command by printing its arguments. It echos the argueme
 ```bash
 if %arg[1] == None -> echo No arguments were provided. else echo Arguments where provided.
 if %arg[1] == None -> echo You said %arg[all] else You didn't say anything.
+```
 
 
 <h2> OLD </h2>
