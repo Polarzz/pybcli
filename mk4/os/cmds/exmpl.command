@@ -1,2 +1,2 @@
 // exmpl.command
-if %arg == hello -> print Hello! else pass
+if %arg[1] == hello -> print Hello! else pass
