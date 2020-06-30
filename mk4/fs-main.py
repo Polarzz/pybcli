@@ -381,7 +381,7 @@ def execute(command,args):
 			x = args.split()[0]
 			for line in open(x,'r'):
 				line = line.strip()
-				line = line.replace("%arg",args.split()[1])
+				line = line.replace("%arg[1]",args.split()[1]).replace("%arg[2]",args.split()[2]).replace("%arg[3]",args.split()[3]).replace("%arg[4]",args.split()[4]).replace("%arg[5]",args.split()[5]).replace("%arg[6]",args.split()[6])
 				if not line:
 					pass
 				if line.startswith("//"):
