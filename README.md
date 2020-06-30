@@ -24,7 +24,14 @@ print %arg[all]
 ```
 
 This will mimic the echo command by printing its arguments. It echos the arguements of <strong>say</strong>, like <strong>echo</strong> or <strong>print</strong>
-<br> You can only use up to six arguements, they start at [1] and end at [6]
+<br> You can only use up to six arguements, they start at [1] and do not end.
+<br>
+
+```bash
+if %arg[1] == None -> echo No arguments were provided. else echo Arguments where provided.
+if %arg[1] == None -> echo You said %arg[all] else You didn't say anything.
+
+
 <h2> OLD </h2>
 In make 1 (mk1) there is basic functionality. <br>
 Commands include: <br>
