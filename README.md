@@ -1,12 +1,17 @@
 # pybcli
 > Pyboard Command Line Interface. <br>
 Take control of your pyboard / microcontroller. <br>
-> NOTE: PLEASE MAKE A FOLDER NAMED <strong>env</strong> IN THE <strong>os</strong> FOLDER TO BE ABLE TO USE VARIABLES
+<h2> SETUP </h2>
+Before placing whichever make onto you're microcontroller create a folder name <strong>env</strong> in the folder <strong>os</strong>. <br>
+Then create a folder called <strong>home</strong> in the <strong>os</strong> directory. <br>
+Go into the <strong>home</strong> directory and create a folder name <strong>micropython</strong>.
+Done!
 <br>
 All makes are tested on both a standard pyboard and pyboard lite and soon to be ESP32 once it arrives. <br>
 <h2> LATEST </h2>
-Make 4 introduces command looping in programs, waiting in programs, and loops with delays in programs. It also includes user creatable commands. <br>
-To loop a command use the <strong>loop [times] [command] </strong> command. To wait use <strong>wait [time as integer of float] </strong> and to loop with delay use <strong>loop-delay [times] [time as integer or float] [command]</strong>. <br>
+Make 4.1 improves on make 4 by allowing an infinite amount of arguments in custom commands using <strong>%arg[arg-number]</strong>. Argument numbers start at 1 and now do not end. To get a single string of all the arguments use <strong>%arg[all]</strong>
+<br>
+
  
 <br>
 Added <strong>cat</strong> and <strong>dump</strong>. <br>
@@ -91,6 +96,10 @@ This program will ask for input, the users name, then if they are logged in as t
 Full documentation on programs in <strong>Programs.md</strong>.
 Example programs can be found under <strong>os/exmpl-prgms</strong>
 
+<h2> Make 4 </h2>
+
+Make 4 introduces command looping in programs, waiting in programs, and loops with delays in programs. It also includes user creatable commands. <br>
+To loop a command use the <strong>loop [times] [command] </strong> command. To wait use <strong>wait [time as integer of float] </strong> and to loop with delay use <strong>loop-delay [times] [time as integer or float] [command]</strong>. <br>
 
 <br>
 <br>
