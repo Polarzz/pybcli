@@ -13,11 +13,11 @@ To create you're own commands place a file in <strong>os/cmds</strong> called <s
 
 ```bash
 // say.command
-echo %arg
+print %arg[1] %arg[2] %arg[3] %arg[4] %arg[5] %arg[6]
 ```
 
 This will mimic the echo command by printing its arguments. It echos the arguements of <strong>say</strong>, like <strong>echo</strong> or <strong>print</strong>
-
+<br> You can only use up to six arguements, they start at [1] and end at [6]
 <h2> OLD </h2>
 In make 1 (mk1) there is basic functionality. <br>
 Commands include: <br>
