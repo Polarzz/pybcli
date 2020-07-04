@@ -7,7 +7,7 @@ Then create a folder called <strong>home</strong> in the <strong>os</strong> dir
 Go into the <strong>home</strong> directory and create a folder name <strong>micropython</strong>.
 Done!
 <br>
-All makes are tested on both a standard pyboard and pyboard lite and soon to be ESP32 once it arrives. <br>
+All makes are tested on both a standard pyboard, pyboard lite and ESP32.
 <h2> LATEST </h2>
 Make 4.1 improves on make 4 by allowing an infinite amount of arguments in custom commands using <strong>%arg[arg-number]</strong>. Argument numbers start at 1 and now do not end. To get a single string of all the arguments use <strong>%arg[all]</strong>
 <br>
@@ -28,7 +28,7 @@ This will mimic the echo command by printing its arguments. It echos the argueme
 <br>
 
 ```bash
-if %arg[1] == None -> echo No arguments were provided. else echo Arguments where provided.
+if %arg[1] == None -> echo No arguments were provided. else echo Arguments were provided.
 if %arg[1] == None -> echo You said %arg[all] else You didn't say anything.
 ```
 
