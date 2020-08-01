@@ -1,6 +1,7 @@
 # pybcli
 > Pyboard Command Line Interface. <br>
 Take control of your pyboard / microcontroller. <br>
+<h2> Please use the command "cmdshell" instead of "shell" or "./" for the time being.</h2>
 <h2> SETUP </h2>
 Before placing whichever make onto you're microcontroller create a folder name <strong>env</strong> in the folder <strong>os</strong>. <br>
 Then create a folder called <strong>home</strong> in the <strong>os</strong> directory. <br>
