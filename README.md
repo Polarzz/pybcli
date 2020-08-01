@@ -29,7 +29,7 @@ This will mimic the echo command by printing its arguments. It echos the argueme
 
 ```bash
 if %arg[1] == None -> echo No arguments were provided. else echo Arguments were provided.
-if %arg[1] == None -> echo You said %arg[all] else You didn't say anything.
+if %arg[1] == None -> echo You said %arg[all] else echo You didn't say anything.
 ```
 
 
